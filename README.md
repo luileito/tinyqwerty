@@ -18,7 +18,8 @@ If you perform some changes to the code and want to re-run the prototypes, first
 - To recompile the ZoomBoard prototype: `grunt zoomboard`
 - To recompile the Callout prototype: `grunt callout`
 - To recompile the ZShift prototype: `grunt zshift`
-- To recompile everything: `grunt`
+- To recompile the common files: `grunt common`
+- To recompile everything in a row: `grunt`
 
 In case you want to debug your newly compiled code, add the parameter `--debug` to each grunt task, e.g. `grunt zshift --debug`. In debug mode, the source maps for JS and CSS files will be created in addition to the minified ones.
 
