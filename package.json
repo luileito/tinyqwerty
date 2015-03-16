@@ -1,0 +1,17 @@
+{
+  "name": "tinyqwerty",
+  "version": "1.0.0",
+  "description": "Text Entry on Tiny QWERTY Soft Keyboards",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luileito/tinyqwerty.git"
+  },
+  "author": "Luis A. Leiva",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.12.2"
+  }
+}
