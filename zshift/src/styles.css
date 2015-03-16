@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000;
+  text-align: center;
+  cursor: default;
+}
+.smartwatch:focus,
+.smartwatch:hover {
+  outline: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-modify: read-write-plaintext-only;
+}
+.smartwatch {
+  background: url(../common/mockup.jpg) no-repeat;
+  width: 225px;
+  height: 390px;
+  margin: auto;
+}
+.kbd-widget {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  cursor: hand;
+  position: relative;
+  top: 122px;
+  left: 37px;
+}
+.t-container,
+.k-container,
+.typed-wrap {
+  height: 73px;
+}
+.typed-wrap {
+  padding: 2px;
+  text-align: left;
+  font-size: 150%;
+  line-height: 90%;
+  font-family: monospace;
+  font-weight: 100;
+  background-color: #EEE;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.typed {
+  color:#000;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.k-container {
+  position: relative;
+  top: 4px;
+  background-color: black;
+}
+.keyboard {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.message {
+  position: absolute;
+  font: lighter 200% sans-serif;
+  color: white;
+}
+.k-container,
+.key,
+.hint,
+.message {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.highlighted {
+  color: #CCC;
+}
+.hint {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+canvas {
+  position: absolute;
+  background-color: transparent;
+  image-rendering: optimizeSpeed;             /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;          /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Webkit */
+  image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+  image-rendering: optimize-contrast;         /* Possible future browsers. */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE */
+}
