@@ -9,7 +9,7 @@ Discover more about this work at: http://personales.upv.es/luileito/tinyqwerty/
 
 ## Install Instructions
 
-Clone this repository and point your web browser to either `zoomboard`, `callout` or `zshift` directories. You can serve the root directory of the cloned repo in your localhost, via Node's `http-serve` or Python's `SimpleHTTPServer` commands.
+Clone this repository and point your web browser to the resulting directory. You can serve such directory in your localhost via Node's `http-serve` or Python's `SimpleHTTPServer` commands.
 
 ### Advanced Install Instructions
 
