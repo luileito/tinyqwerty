@@ -15,7 +15,7 @@ body {
   -webkit-user-modify: read-write-plaintext-only;
 }
 .smartwatch {
-  background: url(../common/mockup.jpg) no-repeat;
+  background: url(../common/img/mockup.jpg) no-repeat;
   width: 225px;
   height: 390px;
   margin: auto;
