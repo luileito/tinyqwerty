@@ -15,7 +15,7 @@
    * txt   - Text used as input stimulus (url-encoded)
    */
 
-  var log = require("../common/logging.min");
+  var log = require("../common/log.min");
   log.config({
     saveUrl: "save.php"
   });
