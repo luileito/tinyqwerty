@@ -13,7 +13,7 @@ Clone this repository and point your web browser to either `zoomboard`, `callout
 
 ### Advanced Install Instructions
 
-If you perform some changes to the code and want to re-run the prototypes, first do `npm install --dev` in the root directory of the cloned repo. (Suffice to say that you'll need Nodejs to run that command.) Then, execute the pertaining grunt tasks:
+If you perform some changes to the code and want to re-run the prototypes, first do `npm install` in the root directory of the cloned repo. (Suffice to say that you'll need Nodejs to run that command.) Then, execute the pertaining grunt tasks:
 
 - To recompile the ZoomBoard prototype: `grunt zoomboard`
 - To recompile the Callout prototype: `grunt callout`
