@@ -5,7 +5,7 @@ Here you'll find the source code of the web-based prototypes we used in our work
 - L. A. Leiva, A. Sahami, A. Catalá, N. Henze, A. Schmidt. **Text Entry on Tiny QWERTY Soft Keyboards.** *Proc. CHI, 2015.*
 - L. A. Leiva, A. Sahami, A. Catalá, N. Henze, A. Schmidt. **Error Auto-Correction Mechanisms on Tiny QWERTY Soft Keyboards.** *Proc. CHI Workshop on Text entry on the edge, 2015.*
 
-Discover more about this work at: http://personales.upv.es/luileito/tinyqwerty/
+Discover more about this work at http://personales.upv.es/luileito/tinyqwerty/
 
 ## Install Instructions
 
@@ -23,6 +23,8 @@ If you perform some changes to the code and want to re-run the prototypes, first
 
 In case you want to debug your newly compiled code, add the parameter `--debug` to each grunt task, e.g. `grunt zshift --debug`. In debug mode, the source maps for JS and CSS files will be created in addition to the minified ones.
 
+**Disclaimer:** ZoomBoard was developed by S. Oney, our version was adapted for conducting some research experiments. You can download the source code of the original ZoomBoard prototype at https://github.com/soney/zoomboard
+
 ## Running your own text entry experiments
 
 All prototypes accept the following URL parameters for conducting text entry experiments:
@@ -33,6 +35,6 @@ All prototypes accept the following URL parameters for conducting text entry exp
 
 ## Error Auto-Correction
 
-The keyboard prototypes are equipped with a webservice based on spell checking. If the `spell` URL param is set (i.e., `http://localhost/tinyqwerty/callout/?spell=en`) the last entered word will be spell-checked, after entering a space. The webservice was written by Richard Willis and is available under the MIT license at https://github.com/badsyntax/jquery-spellchecker
+The keyboard prototypes are equipped with a webservice based on spell checking. If the `spell` URL param is set (i.e., `http://localhost/tinyqwerty/callout/?spell=en`) the last entered word will be spell-checked and auto-corrected (if need be) after entering a space. The webservice was written by Richard Willis and is available under the MIT license at https://github.com/badsyntax/jquery-spellchecker
 
 Note that only the PSpell driver of the webservice was tested, for which you'll need both Aspell and PHP Pspell installed on your web server. To install additional spell checkers, just do `sudo apt-get install aspell-LANG` where LANG is a two letter code that identifies each language; e.g. `en` for English, `fr` for French, etc. Currently, there are spell checkers available for near 100 languages. The official list can be found here: ftp://ftp.gnu.org/gnu/aspell/dict/0index.html
