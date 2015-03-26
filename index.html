@@ -14,6 +14,9 @@
     * { box-sizing:border-box; margin:0; padding:0; }
     html { height:100%; }
     body { font:normal 100% "Open Sans", sans-serif; padding:0 1em; max-width:840px; margin:auto; }
+    #forkMe { top:3em; right:-6em; color:#fff; display:block; position:fixed; text-align:center; text-decoration:none; letter-spacing:.06em; background-color:#A00; padding:0.5em 5em 0.4em 5em; text-shadow:0 0 0.75em #444; box-shadow:0 0 0.5em rgba(0,0,0,0.5); transform:rotate(45deg) scale(0.75,1); font:bold 16px/1.2em Arial, Sans-Serif; -webkit-text-shadow:0 0 0.75em #444; -webkit-box-shadow:0 0 0.5em rgba(0,0,0,0.5); -webkit-transform:rotate(45deg) scale(0.75,1); z-index:10; }
+    #forkMe:before { content:''; top:0; left:0; right:0; bottom:0; position:absolute; margin:-0.3em -5em; transform:scale(0.7); -webkit-transform:scale(0.7); border:2px rgba(255,255,255,0.7) dashed; }
+    #forkMe:hover {opacity:0.9;}
     nav img { margin:3%; }
     h1, h2, .center { text-align:center; }
     h1 { font-size:240%; font-weight:lighter; }
@@ -25,6 +28,7 @@
     </style>
   </head>
   <body>
+  <a id="forkMe" href="https://github.com/luileito/tinyqwerty">Fork me on GitHub</a>
   <h1>Live Demos of Tiny QWERTY Soft Keyboards</h1>
   <nav>
     <h2>Choose a keyboard</h2>
