@@ -9,9 +9,9 @@
   "author": "Luis A. Leiva",
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.13",
-    "grunt-contrib-uglify": "~0.8.0",
-    "grunt-contrib-cssmin": "~0.12.2"
+    "grunt": ">=1.3.0",
+    "grunt-cli": ">=0.1.13",
+    "grunt-contrib-uglify": ">=0.8.0",
+    "grunt-contrib-cssmin": ">=0.12.2"
   }
 }
