@@ -14,8 +14,8 @@ $(function(){
 
   // Routes are relative to the 'common' dir, unless stated explicitly.
   var kbd = require("./kbd.min")
-    , log = require("log.min")
-    , url = require("url.min")
+    , log = require("../common/log.min")
+    , url = require("../common/url.min")
     ;
 
   // Configure event logging.
